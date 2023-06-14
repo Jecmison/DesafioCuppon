@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Link Bootstrap-->
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+   <!--Reset-->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+   <!--Llamado a CSS-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+    <!--google fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+<!--Link para cargar css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>CUPPON</title>
+</head>
+
+<body>
+  <!--Menú-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/img/logo-white.png" alt="Logo" width="86" height="25" >
+      </a>
+      <!--Para hacer responsivo el menú-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Aquí empiezan las primeras tres columnas-->
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 p-4">
+        <div class="card card-width">
+          <img src="./assets/img/cupon-1.jpg" class="card-img-top" alt="Cama con plumón">
+          <div class="card-body">
+            <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección.</h5>
+            <p class="card-text">Plumones manolino</p>
+            <i class="fa-solid fa-location-dot"></i> 9191 Av Vitacura, Chile
+            <hr>
+            <div class="d-flex justify-content-end gap-3"> <!--GAP es separación entre hijos, viene de bootstrap-->
+              <p class="mt-1">$45.990</p>
+              <p class="precio2 text-success"><strong>$22.990</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 p-4">
+        <div class="card card-width">
+          <img src="./assets/img/cupon-2.jpg" class="card-img-top" alt="Plato vegano">
+          <div class="card-body">
+            <h5 class="card-title">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+            <p class="card-text">V for Vegan</p>
+            <i class="fa-solid fa-location-dot"></i> Jesse Pinkman, Chile
+            <hr>
+            <div class="d-flex justify-content-end gap-3"> <!--GAP es separación entre hijos, viene de bootstrap-->
+              <p class="mt-1">$30.990</p>
+              <p class="precio2 text-success"><strong>$12.990</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 p-4">
+        <div class="card card-width">
+          <img src="./assets/img/cupon-3.jpg" class="card-img-top" alt="Asiento de consultorio dental">
+          <div class="card-body">
+            <h5 class="card-title">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+            <p class="card-text">Clínica Dental Quijada</p>
+            <i class="fa-solid fa-location-dot"></i> 1342, Blanco Escalada, Chile
+            <hr>
+            <div class="d-flex justify-content-end gap-3"> <!--GAP es separación entre hijos, viene de bootstrap-->
+              <p class="mt-1">$300.000</p>
+              <p class="precio2 text-success"><strong>$25.990</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Empieza las segundas tres columnas-->
+    <div class="row my-4">
+      <div class="col-12 col-sm-6 col-md-4 p-4">
+        <div class="card card-width">
+          <img src="./assets/img/cupon-4.jpg" class="card-img-top" alt="Colación para dos personas">
+          <div class="card-body">
+            <h5 class="card-title">Colación para dos personas + postre (no incluye bebidas)</h5>
+            <p class="card-text">Suricata Almacén</p>
+            <i class="fa-solid fa-location-dot"> </i> 1071 Miguel Claro, Chile
+            <hr>
+            <div class="d-flex justify-content-end gap-3"> <!--GAP es separación entre hijos, viene de bootstrap-->
+              <p class="mt-1">$4.200</p>
+              <p class="precio2 text-success"><strong>$2.100</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 p-4">
+        <div class="card card-width">
+          <img src="./assets/img/cupon-5.jpg" class="card-img-top" alt="Parque de diversiones">
+          <div class="card-body">
+            <h5 class="card-title">1, 2 o 4 tickets para Stukids. Elige Sucursal</h5>
+            <p class="card-text">Stukids centro de eventos</p>
+            <i class="fa-solid fa-location-dot"> </i> 133 El Tranque, Chile
+            <hr>
+            <div class="d-flex justify-content-end gap-3"> <!--GAP es separación entre hijos, viene de bootstrap-->
+              <p class="mt-1">$4.000</p>
+              <p class="precio2 text-success"><strong>$2.500</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 p-4">
+        <div class="card card-width">
+          <img src="./assets/img/cupon-6.jpg" class="card-img-top" alt="Ave en un lago de Atacama">
+          <div class="card-body">
+            <h5 class="card-title">San Pedro de Atacama: 1 o 2 noches en alojamiento a elección</h5>
+            <p class="card-text"></p>
+            <i class="fa-solid fa-location-dot"> </i> D-Latam Travel
+            <hr>
+            <div class="d-flex justify-content-end gap-3"> <!--GAP es separación entre hijos, viene de bootstrap-->
+              <p class="mt-1">$80.200</p>
+              <p class="precio2 text-success"> <strong>$44.100</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Formulario-->
+<section class="container-fluid bg-success">
+<form class="row">
+      <div class="col-12 mb-4 ">
+        <label for="exampleFormControlInput1" class="form-label">
+          <h3>Recibe cupones en tu correo</h3> 
+        </label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+      </div>
+      <div class="mb-4">
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico">
+      </div>
+      <div class="button">
+      <button type="button" class="btn bg-white mt-4"> <strong>Enviar</strong></button>
+    </div>
+  </div>
+<form>
+</section>
+<!--Footer-->
+<section class="footer">
+<div class="row">
+  <div class="col-12 mb-1 pt-3">
+    <img src="./assets/img/logo-black.png" alt= "Logo Cuppon letras negras"  width="82" height="24">
+    <br>
+      <h6>© 2023 Cuppon Latam. Todos los derechos reservados.</h6> 
+    </div>
+</div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
